@@ -1,8 +1,8 @@
 body {
-  font-family: courier, sans-serif;
-  margin-left:100px;
+  font-family: helvetica, sans-serif;
+  margin-left:50px;
   padding:1px;
-  border:none;
+  border:solid black 1px;
   margin-top:3px;
   margin-bottom:3px;
 }
