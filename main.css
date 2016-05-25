@@ -2,11 +2,7 @@ body {
   font-family: helvetica, sans-serif;
   margin-left:50px;
   padding:1px;
+  border:none;
   margin-top:3px;
   margin-bottom:3px;
 }
-
-<!--h5 {
-  margin-top:3px;
-  margin-bottom:3px;
-}-->
