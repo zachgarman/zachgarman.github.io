@@ -16,3 +16,7 @@ h5 {
   margin-bottom:7px;
   margin-top:4px;
 }
+
+p.dates{
+  float:left;
+}
