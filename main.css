@@ -18,11 +18,10 @@ h5 {
 }
 
 .employment{
-  display:inline-block;
+  display:inline-block,align:top;
   margin:10px;
   border:solid black 1px;
-  text-align:top;
-
+  
 }
 
 .emp-dates{
