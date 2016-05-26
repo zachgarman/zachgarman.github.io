@@ -17,16 +17,20 @@ h5 {
   margin-top:4px;
 }
 
-.emp-history{
+.employment{
   display:inline-block;
   margin:10px;
   border:solid black 1px;
-  width: 500px;
+
 }
 
-.dates{
+.emp-dates{
   border:dotted red 4px;
   width: 150px;
+}
+.emp-desc{
+  border:dotted blue 4px;
+  width:700px;
 }
 
 
