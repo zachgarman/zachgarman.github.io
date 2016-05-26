@@ -17,14 +17,9 @@ h5 {
   margin-top:4px;
 }
 
-p.dates{
+.emp-history{
   display:inline-block;
   width:150px;
   margin:10px;
 }
 
-.job-desc {
-  float:left;
-  display:inline-block;
-  margin-left:10px;
-}
