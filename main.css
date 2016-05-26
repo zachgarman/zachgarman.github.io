@@ -17,11 +17,12 @@ h5 {
   margin-top:4px;
 }
 
+.dates{
+  width:40px;
+}
 .emp-history{
   display:inline-block;
   margin:10px;
 }
 
-.dates{
-  width:15px;
-}
+
