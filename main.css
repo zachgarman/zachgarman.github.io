@@ -19,7 +19,9 @@ h5 {
 
 .emp-history{
   display:inline-block;
-  width:150px;
   margin:10px;
 }
 
+.dates{
+  width:150px;
+}
