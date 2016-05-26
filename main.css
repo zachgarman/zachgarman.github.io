@@ -18,7 +18,7 @@ h5 {
 }
 
 .employment{
-  float:left;
+  display:inline-block;
   margin:10px;
   border:solid black 1px;
   
