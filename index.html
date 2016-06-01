@@ -21,13 +21,14 @@ h2 {
 
 h1 {
   font-size:300%;
-  margin-bottom:20px;
+  margin-bottom:0px;
   margin-top:4px;
+
 }
 
 .address {
   line-height:0px;
-  margin-top:35px;
+  margin-top:-10px;
 }
 
 .employment {
@@ -38,10 +39,17 @@ h1 {
 
 .emp-dates {
   width:90px;
+  font-size:110%;
+}
+
+.employer {
+  font-size:110%;
 }
 
 .emp-desc{
   width:800px;
+  text-align:justify;
+  text-justify:inter-word;
 }
 
 h4 {
@@ -51,7 +59,7 @@ h4 {
 ul {
   list-style-type:circle;
   margin-left:-20px;
-
+  line-height:20px;
 }
 
 .logo {
@@ -76,44 +84,60 @@ th {
   float:left;
   height:300px;
   width:240px;
+  margin-right:50px;
+}
+
+.role  {
+  text-align:justify;
+  text-justify:inter-word;
+  line-height:20px;
 }
 
 .about-me {
   font-family:georgia, serif;
-  padding-top:140px;
+  padding-top:100px;
   font-size:140%;
+  text-align:justify;
+  text-justify:inter-word;
+  width:300px;
+}
+
+.top {
+  width:1040px;
 }
   </style>
 
 </head>
   
 <body>
-
-  <div class="title">
-    <h1 style="width:400px">Zachary Garman</h1>
-    <div class="address">
-      <h5>1218 University Ave NE</h5>
-      <h5>Minneapolis, MN 55413</h5>
-      <h5>612.296.5950</h5>
-      <h5><a href="mailto:zachgarman@gmail.com?Subject=I%20saw%20your%20resume%20and%20want%20to%20interview%20you" target="_top">zachgarman@gmail.com</a></h5>
+  <div class="top">
+    <div class="title">
+      <h1 style="width:400px">Zachary Garman</h1>
+      <div class="address">
+        <h5>1218 University Ave NE</h5>
+        <h5>Minneapolis, MN 55413</h5>
+        <h5>612.296.5950</h5>
+        <h5><a href="mailto:zachgarman@gmail.com?Subject=I%20saw%20your%20resume%20and%20want%20to%20interview%20you" target="_top">zachgarman@gmail.com</a></h5>
+      </div>
     </div>
-  </div>
     
-  <div class="title" style="padding-right:220px">
-    <pre class = "about-me">
-    "Lively and self-motivated, I have recently
-    discovered my passion for coding and have 
-    started teaching myself C++ and HTML to
-    help prepare for a career in programming."
-    </pre>
-  </div>
+    <div class="title" style="margin-right:140px;">
+      <p class = "about-me">
+      "Lively and self-motivated, I have 
+      recently discovered my passion for 
+      coding and have started teaching 
+      myself C++ and HTML to help prepare 
+      for a career in programming."
+      </p>
+    </div>
   
-  <img src="Garman Family.jpg" 
+    <img src="Garman Family.jpg" 
     alt="Garman Family" style="float:left;width:220px;height:280px;" class="title">
 
     <hr style="clear:left">
+    </div>
   </div>
-  
+
   <h2>Employment</h2>
   
   <div class="employment">
@@ -121,7 +145,7 @@ th {
   </div>
   <div class="employment">
     <div class="emp-desc">
-      <h4>US BANK</h4>
+      <h4 class="employer">US BANK</h4>
       <p style="margin-top:0px;">Twin Cities Metro</p>
       <p>Branch Operations Specialist II</p>
       <ul>
@@ -140,7 +164,7 @@ th {
   </div>
   <div class="employment">
     <div class="emp-desc">
-      <h4>US BANK</h4>
+      <h4 class="employer">US BANK</h4>
       <p style="margin-top:0px;">Roseville, MN</p>
       <p>Hired as In-Store Banker 1.  Promoted three times to Assistant Manager.</p>
       <ul>
@@ -159,7 +183,7 @@ th {
   </div>
   <div class="employment">
     <div class="emp-desc">
-      <h4>UNIVERSITY OF NOTRE DAME</h4>
+      <h4 class="employer">UNIVERSITY OF NOTRE DAME</h4>
       <p style="margin-bottom:0px;">Bachelor of Arts - Theology</p>
       <p style="margin-top:0px;">Graduated Magna Cum Laude</p>
     </div>
@@ -176,22 +200,22 @@ th {
     <tr>
       <td><a href="https://www.fmsc.org">Feed My Starving Children</td>
       <td><a href="https://www.fmsc.org"><img src="https://www.fmsc.org/image/09-template-images/fmsc-logo.png" class="logo" alt="FMSC Logo" style="height:40px;width:80px;"></td>
-      <td>Prepared and packaged meals for individuals located all over the world who are in need.</td>
+      <td class="role">Prepared and packaged meals for individuals located all over the world who are in need.</td>
     </tr>
     <tr>
       <td><a href="https://www.tchabitat.org">Habitat For Humanity</td>
       <td><a href="https://www.tchabitat.org"><img src="https://cdn2.hubspot.net/hub/92650/file-1707282782-png/Site/logo-twin-cities.png?t=1464278760731&width=417" class="logo" alt="Habitat for Humanity Logo" style="height:40px;width:80px;"></td>
-      <td>Helped the "A Brush with Kindness" program to clean and restore a local veteran's home to a pristine condition.</td>
+      <td class="role">Helped the "A Brush with Kindness" program to clean and restore a local veteran's home to a pristine condition.</td>
     </tr>
     <tr>
       <td><a href="https://petmntc.org">The PET Project MN</td>
       <td><a href="https://petmntc.org"><img src="PET.jpg" alt="PET Logo" class="logo" style="height:40px;width:80px;"></td>
-      <td>Helped to build, paint, and package Personal Energy Transportation devices for use in Third World countries where wheelchairs are inaccessible or ineffective.</td>
+      <td class="role">Helped to build, paint, and package Personal Energy Transportation devices for use in Third World countries where wheelchairs are inaccessible or ineffective.</td>
     </tr>
     <tr>
       <td><a href="http://www.2harvest.org">Second Harvest Heartland</td>
       <td><a href="http://www.2harvest.org"><img src="http://www.2harvest.org/assets/theme_assets/img/logo.png" alt="Second Harvest Heartland Logo" class="logo" style="height:40px;width:80px;"</td>
-      <td>Inspected, sorted, and packaged donated food items to be distributed at various local food banks.</td>
+      <td class="role">Inspected, sorted, and packaged donated food items to be distributed at various local food banks.</td>
     </tr>
   </table>
   <hr>
