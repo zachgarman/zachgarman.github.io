@@ -1,0 +1,103 @@
+
+body {
+  font-family: arial, sans-serif;
+  margin-left:50px;
+  margin-right:50px;
+  background-image:url(TexturedBackground.jpg);
+  width:1040px;
+}
+
+h5 {
+  font-size:100%;
+}
+
+h2 {
+  font-size:200%;
+}
+
+h1 {
+  font-size:300%;
+  margin-bottom:0px;
+  margin-top:4px;
+
+}
+
+.address {
+  line-height:0px;
+  margin-top:-10px;
+}
+
+.employment {
+  display:inline-block;
+  margin:10px;
+  vertical-align:top;
+}
+
+.emp-dates {
+  width:90px;
+  font-size:110%;
+}
+
+.employer {
+  font-size:110%;
+}
+
+.emp-desc{
+  width:800px;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+h4 {
+  margin:0;
+}
+
+ul {
+  list-style-type:circle;
+  margin-left:-20px;
+  line-height:20px;
+}
+
+.logo {
+  padding:5px;
+  border:1px solid slategray;
+}
+
+table {
+  width:900px;
+}
+
+table, th, tr, td {
+  padding:15px;
+  border-collapse:collapse;
+}
+
+th {
+  text-align:left;
+}
+
+.title {
+  float:left;
+  height:300px;
+  width:240px;
+  margin-right:50px;
+}
+
+.role  {
+  text-align:justify;
+  text-justify:inter-word;
+  line-height:20px;
+}
+
+.about-me {
+  font-family:georgia, serif;
+  padding-top:100px;
+  font-size:140%;
+  text-align:justify;
+  text-justify:inter-word;
+  width:310px;
+}
+
+.top {
+  width:1040px;
+}
