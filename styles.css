@@ -176,7 +176,7 @@ th {
 
 .lumbergh:hover {
   box-shadow:0 0 20px 10px yellow, 0 0 40px 40px red, 0 0 60px 50px blue, 0 0 80px 60px black;
-  margin-bottom:50px;    
+  padding-bottom:100px;    
 }
 
 
