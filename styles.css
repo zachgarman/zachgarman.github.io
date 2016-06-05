@@ -29,13 +29,28 @@ h1 {
 h5 {
   font-size:100%;
 }
-.linkedin{
+
+.linkedin:link {
   background-color:blue;
   color:white;
   padding:10px 20px;
   border-radius:8px;
   line-height:20px;
   border:2px solid slategray;
+  text-decoration:none;
+  transition-duration:.3s;
+}
+
+.linkedin:visited {
+  background-color:slategray;
+  color:darkslategray;
+  border:2ps solid black;
+}
+
+.linkedin:hover {
+  background-color:white;
+  color:blue;
+  border:2px solid darkslategray;
 }
 
 .about-me {
