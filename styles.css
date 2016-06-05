@@ -7,17 +7,22 @@ body {
   width:1040px;
 }
 
+.title {
+  float:left;
+  height:300px;
+  width:240px;
+  margin-right:50px;
+}
+
 h1 {
   font-size:300%;
   margin-bottom:0px;
   margin-top:4px;
 }
 
-.title {
-  float:left;
-  height:300px;
-  width:240px;
-  margin-right:50px;
+.address {
+  line-height:0px;
+  margin-top:-10px;
 }
 
 h5 {
@@ -26,11 +31,6 @@ h5 {
 
 h2 {
   font-size:200%;
-}
-
-.address {
-  line-height:0px;
-  margin-top:-10px;
 }
 
 .employment {
