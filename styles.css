@@ -7,7 +7,11 @@ body {
   width:1040px;
 }
 
-
+h1 {
+  font-size:300%;
+  margin-bottom:0px;
+  margin-top:4px;
+}
 
 h5 {
   font-size:100%;
@@ -15,13 +19,6 @@ h5 {
 
 h2 {
   font-size:200%;
-}
-
-h1 {
-  font-size:300%;
-  margin-bottom:0px;
-  margin-top:4px;
-
 }
 
 .address {
