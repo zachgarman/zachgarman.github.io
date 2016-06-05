@@ -91,6 +91,8 @@ ul {
 .logo {
   padding:5px;
   border:1px solid slategray;
+  height:40px;
+  width:80px;
 }
 
 table {
