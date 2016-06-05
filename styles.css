@@ -43,14 +43,20 @@ h5 {
 
 .linkedin:visited {
   background-color:slategray;
-  color:darkslategray;
-  border:2ps solid black;
+  color:black;
+  border:2ps darkslategray;
 }
 
 .linkedin:hover {
   background-color:white;
   color:blue;
   border:2px solid darkslategray;
+}
+
+.linkedin:active {
+  background-color:lightslategray;
+  color:darkslategray;
+  border:blue;
 }
 
 .about-me {
