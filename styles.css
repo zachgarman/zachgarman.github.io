@@ -101,6 +101,10 @@ th {
   text-align:left;
 }
 
+.link {
+  target:_blank;
+}
+
 .logo {
   padding:5px;
   border:1px solid slategray;
