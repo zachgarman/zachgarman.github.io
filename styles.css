@@ -150,11 +150,15 @@ th {
   color:orange;
 }
 
-.logo {
+.logo:link {
   padding:5px;
   border:1px solid slategray;
   height:40px;
   width:80px;
+}
+
+.logo:hover{
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.22), 0 10px 20px 0 rgba(0,0,0,0.18);
 }
 
 .role  {
