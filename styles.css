@@ -88,13 +88,10 @@ ul {
   line-height:20px;
 }
 
-table {
-  border:1px solid black;
-}
-
 table, th, tr, td {
   padding:15px;
   border-collapse:collapse;
+  border:1px solid black;
 }
 
 th {
