@@ -29,6 +29,11 @@ h5 {
   font-size:100%;
 }
 
+.picture {
+  height:265px;
+  width:220px;
+}
+
 h2 {
   font-size:200%;
 }
