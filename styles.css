@@ -67,12 +67,13 @@ h5 {
   text-align:justify;
   text-justify:inter-word;
   width:310px;
+  padding-left:-60px;
 }
 
 .picture {
   height:275px;
-  width:400px;
-  padding-left:120px;
+  width:350px;
+  padding-left:60px;
 }
 
 br {
