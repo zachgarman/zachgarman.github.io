@@ -88,13 +88,6 @@ ul {
   line-height:20px;
 }
 
-.logo {
-  padding:5px;
-  border:1px solid slategray;
-  height:40px;
-  width:80px;
-}
-
 table {
   width:900px;
 }
@@ -106,6 +99,16 @@ table, th, tr, td {
 
 th {
   text-align:left;
+}
+
+.org {
+  colspan:"2";
+}
+.logo {
+  padding:5px;
+  border:1px solid slategray;
+  height:40px;
+  width:80px;
 }
 
 .role  {
