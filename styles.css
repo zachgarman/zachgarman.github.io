@@ -80,6 +80,10 @@ br {
   clear:left;
 }
 
+hr {
+  margin-right:50px;
+}
+
 h2 {
   font-size:200%;
 }
