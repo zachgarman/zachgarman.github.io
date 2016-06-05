@@ -90,6 +90,7 @@ ul {
 
 table, th, tr, td {
   padding-top:25px;
+  padding-right:30px;
   border-collapse:collapse;
 }
 
