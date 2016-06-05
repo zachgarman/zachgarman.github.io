@@ -51,6 +51,7 @@ h5 {
   background-color:white;
   color:blue;
   border:2px solid darkslategray;
+  box-shadow:0 12px 16px 0 rgba(0,0,0,0.22), 0 10px 20px 0 rgba(0,0,0,0.18);
 }
 
 .linkedin:active {
