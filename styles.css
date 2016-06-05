@@ -64,14 +64,18 @@ h2 {
   font-size:110%;
 }
 
-.employer {
-  font-size:110%;
-}
-
 .emp-desc{
   width:800px;
   text-align:justify;
   text-justify:inter-word;
+}
+
+.employer {
+  font-size:110%;
+}
+
+.location {
+  margin-top:0px;
 }
 
 h4 {
