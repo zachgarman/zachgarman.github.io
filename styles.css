@@ -128,6 +128,23 @@ th {
   text-align:left;
 }
 
+.vol-link:link {
+  color:blue
+  transition-duration:.2s;
+}
+
+.vol-link:visted {
+  color:slategray;
+}
+
+.vol-link:hover {
+  color:red;
+}
+
+.vol-link:active {
+  color:yellow;
+}
+
 .logo {
   padding:5px;
   border:1px solid slategray;
