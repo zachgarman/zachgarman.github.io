@@ -90,12 +90,12 @@ ul {
 
 table {
   width:1000px;
+  border:1px solid black;
 }
 
 table, th, tr, td {
   padding:15px;
   border-collapse:collapse;
-  border:1px solid black;
 }
 
 th {
