@@ -56,7 +56,7 @@ h5 {
 .linkedin:active {
   background-color:yellow;
   color:red;
-  border:red;
+  border:2px solid red;
 }
 
 .about-me {
