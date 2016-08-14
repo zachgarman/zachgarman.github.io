@@ -208,5 +208,6 @@ textarea {
 input[type=submit] {
   width: 180px;
   margin-bottom: 40px;
+  background: radial-gradient(white, #888888);
 }
 
