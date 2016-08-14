@@ -7,10 +7,6 @@ body {
   width:1040px;
 }
 
-header {
-  background-image:url(header-background.jpg);
-}
-
 .title {
   float:left;
   height:300px;
