@@ -187,6 +187,7 @@ th {
 
 label, input {
   display: block;
+  margin: 5px, 0 10px 0;
 }
 
 
