@@ -7,6 +7,10 @@ body {
   width:1040px;
 }
 
+header {
+  background-image:url(http://www.ngepluk.com/p/black-and-white-nature-wallpaper-desktop-background-58w.jpg);
+}
+
 .title {
   float:left;
   height:300px;
