@@ -24,6 +24,7 @@ h1 {
 figcaption {
   padding-left: 50px;
   font-size: 75%;
+  width: 240px;
 }
 
 .address {
