@@ -211,3 +211,8 @@ input[type=submit] {
   background: radial-gradient(white, #444444);
 }
 
+input[type=submit]:hover {
+  border: #eeeeee;
+  background: radial-gradient(#222222, #eeeeee);
+}
+
