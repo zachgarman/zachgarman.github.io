@@ -196,10 +196,12 @@ label {
 input, textarea {
   margin-bottom: 8px;
   width: 450px;
+  margin: 2px solid dimgray;
+  padding: 8px;
 }
 
 input[type=submit] {
-  width: 100px;
+  width: 140px;
   margin-bottom: 40px;
 }
 
