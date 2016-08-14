@@ -21,6 +21,11 @@ h1 {
   width:400px;
 }
 
+figcaption {
+  padding-left: 50px;
+  font-size: 75%;
+}
+
 .address {
   line-height:0px;
   margin-top:-10px;
