@@ -168,6 +168,10 @@ th {
   width:560px;
 }
 
+.hero-section {
+  display: inline-block;
+}
+
 .lumbergh {
   height:270px;
   width:360px;
